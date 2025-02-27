@@ -1,6 +1,6 @@
 # 🚀 7DaysOfCode - JavaScript
 
-Seja bem-vindo ao meu desafio **7 Dias de Código com JavaScript**! 🎯
+Seja bem-vindo ao desafio **7 Dias de Código com JavaScript**! 🎯
 
 ## 📌 Sobre o Desafio
 Durante **7 dias**, estarei praticando e aprimorando conhecimentos em **JavaScript**.
