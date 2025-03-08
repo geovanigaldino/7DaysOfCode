@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Reset básico e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos da Navbar */
+.container-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60px;
+    padding: 20px;
+}
+
+.container-navbar h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A404E;
+    line-height: 24px;
+}
+
+.logo-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo-navbar img {
+    width: 26px;
+    height: 26px;
+}
+
+.links-navbar a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    text-decoration: none;
+    margin-right: 40px;
+    transition: color 0.3s ease;
+}
+
+.links-navbar a:last-child {
+    margin-right: 0;
+}
+
+.links-navbar a:hover {
+    color: #8E2424;
+}
+
+.botoes-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 10px 18px;
+}
+
+.botao--entrar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #667085;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    transition: color 0.3s ease;
+}
+
+.botao--entrar:hover {
+    color: #8E2424;
+}
+
+.botao--cadastrar {
+    cursor: pointer;
+    background-color: #8E2424;
+    color: #ffffff;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.botao--cadastrar:hover {
+    background-color: #6b1111;
+    border-color: #851717;
+}
