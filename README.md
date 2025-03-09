@@ -1,10 +1,10 @@
 # 7DaysOfCode 👨‍💻
 
-Bem-vindo ao repositório do desafio **7 Dias de Código**! Aqui você encontrará os projetos e códigos que desenvolvi ao longo de 7 dias, explorando diferentes conceitos e tecnologias.
+Bem-vindo ao repositório do desafio **7DaysOfCode**! Aqui você encontrará os projetos e códigos que desenvolvi ao longo de 7 dias, explorando diferentes conceitos e tecnologias.
 
 ## 🚀 Sobre o Desafio
 
-O **7 Dias de Código** é um desafio que consiste em criar um projeto durante 7 dias consecutivos. O objetivo é praticar habilidades de programação, explorar novas tecnologias e manter a consistência no desenvolvimento.
+O **7DaysOfCode** é um desafio que consiste em criar um projeto durante 7 dias consecutivos. O objetivo é praticar habilidades de programação, explorar novas tecnologias e manter a consistência no desenvolvimento.
 
 ## 📂 Estrutura do Repositório
 
