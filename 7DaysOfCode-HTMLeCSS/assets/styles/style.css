@@ -9,8 +9,9 @@
 
 :root {
     /* Cores */
-    --cor-texto: #667085;
-    --cor-principal: #8E2424;
+    --cor-principal: #8E2424; 
+    --cor-texto: #667085; 
+    --cor-titulo: #101828;
 
     /* Fonte */
     --fonte-principal: 'Inter', sans-serif;
@@ -109,4 +110,93 @@ body {
 .botao--cadastrar:hover {
     background-color: #6b1111;
     border-color: var(--cor-principal);
+}
+
+/* Seção Cabeçalho */
+.cabecalho {
+    padding: 96px 0;
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.cabecalho__destaque {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-principal);
+}
+
+.cabecalho__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: var(--cor-titulo);
+    text-align: center;
+    margin: 0;
+    padding: 32px 0;
+}
+
+.cabecalho__descricao {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-texto);
+    text-align: center;
+    margin: 0;
+    max-width: 791px;
+}
+
+/* Seção métricas */
+.metricas-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 96px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    flex-wrap: wrap;
+}
+
+.metrica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+    width: 280px;
+    min-height: 168px;
+}
+
+.metrica__title {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--cor-principal);
+    margin-bottom: 12px;
+    line-height: 1.2; 
+}
+
+.metrica__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-titulo);
+    margin-bottom: 8px;
+}
+
+.metrica__text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cor-texto);
+    margin: 0;
+    gap: 10px;
 }
