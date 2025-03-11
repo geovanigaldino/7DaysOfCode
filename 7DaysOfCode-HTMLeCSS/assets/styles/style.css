@@ -200,3 +200,57 @@ body {
     margin: 0;
     gap: 10px;
 }
+/* Seção Vagas */
+.vagas {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 32px;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talentos__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px; 
+    padding: 32px; 
+}
+
+.talentos__badge {
+    width: 125px; 
+    height: 28px; 
+    padding: 4px 12px;
+    border-radius: 16px;
+    background-color: #8E24240D; 
+    color: var(--cor-principal); 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center; 
+}
+
+.talentos__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--cor-titulo);
+}
+
+.talentos__texto {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-texto);
+}
+
+.talentos img {
+    width: 1216px;
+    height: 400px;
+    margin-top: 32px;
+}
