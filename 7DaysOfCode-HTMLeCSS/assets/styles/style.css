@@ -219,7 +219,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px; 
+    gap: 25px; 
     padding: 32px; 
 }
 
@@ -305,5 +305,87 @@ body {
     flex-direction: row;
     gap: 24px;
     font-size: 16px;
+    color: var(--cor-texto);
+}
+
+/* Seção Depoimentos */
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    padding-bottom: 96px;
+    margin: 100px;
+}
+
+.depoimentos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 64px;
+    background-color: #C3191908; 
+    gap: 32px;
+}
+
+.citacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 1088px;
+    height: 124px;
+    gap: 16px;
+}
+
+.citacao__texto {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--cor-principal); /
+}
+
+/* Título da Citação */
+.citacao__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: var(--cor-titulo);
+}
+
+/* Foto do Colaborador */
+.citacao img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.citacao__informacoes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+}
+
+.citacao__nome {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--cor-titulo);
+}
+
+.citacao__vaga {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
     color: var(--cor-texto);
 }
