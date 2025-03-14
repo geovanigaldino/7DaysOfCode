@@ -200,6 +200,7 @@ body {
     margin: 0;
     gap: 10px;
 }
+
 /* Seção Vagas */
 .vagas-abertas {
     display: flex;
@@ -299,7 +300,6 @@ body {
     margin-bottom: 46px;
 }
 
-/* Estilo da div de informações */
 .informacoes {
     display: flex;
     flex-direction: row;
